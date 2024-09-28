@@ -4,6 +4,7 @@ const MyButton = () => {
 	return (
 		<Button color="secondary" isLoading>
 			loading
+			hello
 		</Button>
 	);
 };
