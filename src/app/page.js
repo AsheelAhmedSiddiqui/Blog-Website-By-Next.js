@@ -14,7 +14,7 @@ export default async function Home() {
 	// 	});
 	// }
 
-	console.log(cate);
+	// console.log(cate);
 	return (
 		<div className=" container w-[1100px] my-10 mx-auto flex items-center justify-between">
 			<div className="left w-[800px] h-screen">
