@@ -13,6 +13,10 @@ export default function RootLayout({ children }) {
 			<body>
 				<MyNavbar />
 				<Providers>{children}</Providers>
+				<p>
+					Asheel Ahmed Siddiqui - &copy; 2024 &mdash; &mdash; &mdash; Made with
+					love ♥
+				</p>
 			</body>
 		</html>
 	);
