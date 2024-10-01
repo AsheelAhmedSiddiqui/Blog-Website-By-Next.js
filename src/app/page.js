@@ -5,14 +5,14 @@ import Loader from "@/components/Loader";
 // useState error
 
 export default async function Home() {
-	const [cate, setCate] = useState([]);
+	// const [cate, setCate] = useState([]);
 	let blogData = await fetch("https://api.vercel.app/blog");
 	let blogs = await blogData.json();
-	{
-		blogs.map((data) => {
-			setCate(...cate), setCate(data.category);
-		});
-	}
+	// {
+	// 	blogs.map((data) => {
+	// 		setCate(...cate), setCate(data.category);
+	// 	});
+	// }
 
 	console.log(cate);
 	return (
