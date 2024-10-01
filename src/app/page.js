@@ -2,7 +2,6 @@
 
 import Blogs from "@/components/Blogs";
 import Loader from "@/components/Loader";
-
 export default async function Home() {
 	let blogData = await fetch("https://api.vercel.app/blog");
 	let blogs = await blogData.json();
