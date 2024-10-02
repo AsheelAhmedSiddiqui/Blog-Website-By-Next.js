@@ -14,7 +14,9 @@ export default async function Home() {
 					<Loader />
 				)}
 			</div>
-			<div className="right w-[300px] h-screen border border-black">hello</div>
+			<div className="right w-[300px] h-screen border border-black">
+				hello
+			</div>
 		</div>
 	);
 }
