@@ -15,7 +15,7 @@ export default async function Home() {
 				)}
 			</div>
 			<div className="right w-[300px] h-screen border border-black">
-				hello
+				hello World -- Asheel Ahmed Siddiqui 2024
 			  </div>
 		</div>
 	);
