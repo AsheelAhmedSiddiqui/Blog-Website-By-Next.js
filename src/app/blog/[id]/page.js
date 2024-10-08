@@ -1,3 +1,5 @@
 export default function Post({ param }) {
-	return <div></div>;
+	return <div>
+		<h1>{param}</h1>
+	</div>;
 }

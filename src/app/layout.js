@@ -13,10 +13,12 @@ export default function RootLayout({ children }) {
 			<body>
 				<MyNavbar />
 				<Providers>{children}</Providers>
-				<p>
-					Asheel Ahmed Siddiqui - &copy; 2024 &mdash; &mdash; &mdash; Made with
-					love ♥
-				</p>
+				<footer className="absolute bottom-0">
+					<p className="my-20 mx-20">
+						Asheel Ahmed Siddiqui - &copy; 2024 &mdash; &mdash; &mdash; Made
+						with love ♥
+					</p>
+				</footer>
 			</body>
 		</html>
 	);
